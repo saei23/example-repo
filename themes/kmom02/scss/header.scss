@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $nourivre-5-hex;
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    border-bottom: 4px solid $nourivre-1-hex;
+}
+
+.site-header {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav {
+    // background-color: #000;
+
+    a {
+        font-weight: bold;
+        font-size: 1.7rem;
+        text-decoration: none;
+        padding: 0 1.7rem;
+        color: $font-color;
+    }
+
+    a:hover {
+        border-bottom: 4px solid $nourivre-1-hex;
+    }
+
+    .active a {
+        border-bottom: 4px solid $nourivre-3-hex;;
+    }
+}
+
+
+/* Header */
+
+.header, .site-header {
+    display: flex;
+    justify-content: space-between;
+}

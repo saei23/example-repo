@@ -1,0 +1,22 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 4px solid $nourivre-1-hex;
+    background-color: #222;
+    color: #fff;
+    padding: 4rem 6rem;
+}
+
+.footer a {
+    color: #fff;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.a {
+    text-decoration: none;
+}

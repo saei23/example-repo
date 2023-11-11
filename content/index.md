@@ -1,5 +1,5 @@
 ---
-Title: Saga Eriksson
+Title: Me
 Description: This is our index page.
 ---
 
