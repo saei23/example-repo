@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+$font-color: #000;
+$font-alternative-color: #fff;
+$accent-color: #ee6c4d;
+$background-color: rgb(255, 255, 255);
+$background-alternative-color: #e0fbfc;
+
+$header-font: 'Open Sans', sans-serif;
+$main-font: 'Roboto', sans-serif;
+
+// exempel
+$nourivre-1-hex: #aeb9bf;
+$nourivre-2-hex: #001f3f;
+$nourivre-3-hex: #DDD;
+$nourivre-4-hex: #f2e6d8;
+$nourivre-5-hex: #7FDBFF;
+
+
+// Color Theme Swatches in RGBA
+$nourivre-1-rgba: rgba(49, 0, 224, 0.5);
+$nourivre-2-rgba: rgba(198, 0, 224, 0.5);
+$nourivre-3-rgba: rgba(123, 0, 224, 0.5);
+$nourivre-4-rgba: rgba(0, 22, 224, 0.5);
+$nourivre-5-rgba: rgba(224, 0, 138, 0.5);
+
+$gradient: linear-gradient(120deg, $nourivre-1-rgba, $nourivre-4-rgba, $nourivre-4-rgba);
+
+$font-color: #333;
+$font-alternative-color: #fff;
+
+$header-font: 'Inter', sans-serif;
+$paragraph-font: 'Cormorant Garamond', serif;

@@ -7,6 +7,10 @@
     background-color: #222;
     color: #fff;
     padding: 4rem 6rem;
+
+    p {
+        color: $nourivre-5-hex
+    }
 }
 
 .footer a {
@@ -15,8 +19,18 @@
 
 .footer .social {
     font-size: 2rem;
+    color: $nourivre-5-hex;
+
+    i {
+        color: $nourivre-5-hex
+    }
 }
 
-.a {
+a {
     text-decoration: none;
+    color: $nourivre-5-hex;
+}
+
+.social a {
+    color: $nourivre-5-hex;
 }

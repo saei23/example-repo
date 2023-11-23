@@ -1,0 +1,96 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grid-title {
+    grid-column: span 3; /* Titeln tar upp tre kolumner i bredd */
+    text-align: center;
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // grid-column: span 1;
+}
+
+.box a {
+    text-decoration: none;
+    color: #333;
+}
+
+.box:hover {
+    background-color: #ddd;
+}
+
+/* Specifika inställningar för varje teknologi-box */
+.css {
+    grid-column: span 1; /* CSS tar upp en kolumn */
+}
+
+.html {
+    grid-column: span 2; /* HTML tar upp två kolumner */
+}
+
+.javascript {
+    grid-column: span 2; /* JavaScript tar upp två kolumner */
+}
+
+.php {
+    grid-column: span 1; /* PHP tar upp en kolumn */
+}
+
+.python {
+    grid-column: span 3; /* Python tar upp tre kolumner */
+}
+
+.git {
+    grid-column: span 1; /* Git tar upp en kolumn */
+}
+
+.sqlite {
+    grid-column: span 2; /* SQLite tar upp två kolumner */
+}
+
+
+@media screen and (max-width: 767px) {
+    /* Responsivitet för små enheter */
+    .grid-title {
+        grid-column: span 1; /* Titeln tar upp en kolumn i bredd på små enheter */
+        text-align: center;
+    }
+
+    .grid-container {
+        grid-template-columns: 100%
+    }
+
+    .css, .html, .javascript, .php, .python, .git, .sqlite {
+        grid-column: span 1;
+    }
+
+}
+
+.report-page {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* En sidebar-kolumn och en content-kolumn */
+    gap: 20px;
+  
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr; /* Endast en kolumn för små enheter */
+    }
+}
+  
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+  
+.content {
+    padding: 20px;
+}

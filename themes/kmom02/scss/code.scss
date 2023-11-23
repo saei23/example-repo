@@ -53,10 +53,6 @@ body {
     flex-direction: column;
 }
 
-.main {
-    flex: 1 0 auto;
-}
-
 .header, .footer {
     flex: 0 0 auto;
 }
@@ -107,6 +103,7 @@ body {
 .main {
     width: 80%;
     margin: 0 auto;
+    flex: 1 0 auto;
 }
 
 p {
