@@ -80,7 +80,7 @@ body {
 }
 
 .logo {
-    max-width: 25%;
+    max-width: 35%;
 }
 
 .title * {
@@ -94,7 +94,7 @@ body {
 }
 
 .nav a:hover {
-    border-bottom: 4px solid #ff00f0;
+    border-bottom: 4px solid $hover-color;
 }
 
 

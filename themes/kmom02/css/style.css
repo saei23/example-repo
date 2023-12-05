@@ -6485,10 +6485,14 @@ template {
 @media screen and (max-width: 767px) {
   /* Responsivitet för små enheter */
   .grid-title {
+    grid-column: span 1; /* Titeln tar upp en kolumn i bredd på små enheter */
     text-align: center;
   }
   .grid-container {
     grid-template-columns: 100%;
+  }
+  .css, .html, .javascript, .php, .python, .git, .sqlite {
+    grid-column: span 1;
   }
 }
 .report-page {
@@ -6509,6 +6513,18 @@ template {
 
 .content {
   padding: 20px;
+}
+
+.colors {
+  grid-column: span 3;
+}
+
+.load {
+  grid-column: span 3;
+}
+
+.designprinciples {
+  grid-column: span 3;
 }
 
 /*!
@@ -12961,11 +12977,15 @@ img {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #1f1f33;
 }
 
 * {
   color: #333;
+}
+
+.samecolor {
+  border: 1px solid black;
 }
 
 .header {
@@ -13000,7 +13020,7 @@ body {
   border-bottom: 4px solid #aeb9bf;
 }
 .nav .active a {
-  border-bottom: 4px solid #DDDDDD;
+  border-bottom: 4px solid #DDD;
 }
 
 /* Header */
@@ -13103,10 +13123,6 @@ body {
   flex-direction: column;
 }
 
-.main {
-  flex: 1 0 auto;
-}
-
 .header, .footer {
   flex: 0 0 auto;
 }
@@ -13146,8 +13162,9 @@ body {
 
 /* main */
 .main {
-  width: 64em;
+  width: 80%;
   margin: 0 auto;
+  flex: 1 0 auto;
 }
 
 p {
@@ -13273,10 +13290,14 @@ p {
 @media screen and (max-width: 767px) {
   /* Responsivitet för små enheter */
   .grid-title {
+    grid-column: span 1; /* Titeln tar upp en kolumn i bredd på små enheter */
     text-align: center;
   }
   .grid-container {
     grid-template-columns: 100%;
+  }
+  .css, .html, .javascript, .php, .python, .git, .sqlite {
+    grid-column: span 1;
   }
 }
 .report-page {
@@ -13297,6 +13318,18 @@ p {
 
 .content {
   padding: 20px;
+}
+
+.colors {
+  grid-column: span 3;
+}
+
+.load {
+  grid-column: span 3;
+}
+
+.designprinciples {
+  grid-column: span 3;
 }
 
 * {
@@ -13326,11 +13359,15 @@ img {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: #1f1f33;
 }
 
 * {
   color: #333;
+}
+
+.samecolor {
+  border: 1px solid black;
 }
 
 blockquote {
@@ -13393,10 +13430,6 @@ body {
   flex-direction: column;
 }
 
-.main {
-  flex: 1 0 auto;
-}
-
 .header, .footer {
   flex: 0 0 auto;
 }
@@ -13436,8 +13469,9 @@ body {
 
 /* main */
 .main {
-  width: 64em;
+  width: 80%;
   margin: 0 auto;
+  flex: 1 0 auto;
 }
 
 p {
@@ -13534,7 +13568,7 @@ p {
   border-bottom: 4px solid #aeb9bf;
 }
 .nav .active a {
-  border-bottom: 4px solid #DDDDDD;
+  border-bottom: 4px solid #DDD;
 }
 
 /* Header */

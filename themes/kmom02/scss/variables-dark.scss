@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 $font-color: #000;
-$font-alternative-color: #fff;
+$font-alternative-color: #1f1f33;
 $accent-color: #ee6c4d;
-$background-color: rgb(255, 255, 255);
+$background-color: #1f1f33;
 $background-alternative-color: #e0fbfc;
+$hover-color: #797999;
 
 $header-font: 'Open Sans', sans-serif;
 $main-font: 'Roboto', sans-serif;
@@ -14,8 +15,7 @@ $nourivre-1-hex: #aeb9bf;
 $nourivre-2-hex: #001f3f;
 $nourivre-3-hex: #DDD;
 $nourivre-4-hex: #f2e6d8;
-$nourivre-5-hex: #7FDBFF;
-
+$nourivre-5-hex: #7b7bb3;
 
 // Color Theme Swatches in RGBA
 $nourivre-1-rgba: rgba(49, 0, 224, 0.5);
@@ -26,7 +26,7 @@ $nourivre-5-rgba: rgba(224, 0, 138, 0.5);
 
 $gradient: linear-gradient(120deg, $nourivre-1-rgba, $nourivre-4-rgba, $nourivre-4-rgba);
 
-$font-color: #333;
+$font-color: #aeb9bf;
 $font-alternative-color: #fff;
 
 $header-font: 'Inter', sans-serif;
