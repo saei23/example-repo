@@ -1,0 +1,38 @@
+.grid-container-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid-title-gallery {
+    grid-column: span 4; /* Titeln tar upp fyra kolumner i bredd */
+    text-align: center;
+}
+
+.samecolor {
+    border: 1px solid #000;
+}
+
+.goteborg, .karlstad, .bengtsfors {
+    width: 40%;
+}
+
+.one, .two, .three, .four, .five, .six {
+    grid-column: span 2;
+}
+
+@media screen and (max-width: 767px) {
+    /* Responsivitet för små enheter */
+    .grid-title-gallery {
+        grid-column: span 1; /* Titeln tar upp en kolumn i bredd på små enheter */
+        text-align: center;
+    }
+
+    .grid-container-gallery {
+        grid-template-columns: 100%
+    }
+
+    .one, .two, .three, .four, .five, .six {
+        grid-column: span 1;
+    }
+}

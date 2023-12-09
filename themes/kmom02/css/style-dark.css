@@ -6454,18 +6454,14 @@ body {
 }
 
 * {
-  color: #333;
-}
-
-.samecolor {
-  border: 1px solid black;
+  color: #aeb9bf;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #7FDBFF;
+  background-color: #7b7bb3;
 }
 
 .site-header {
@@ -6484,10 +6480,10 @@ body {
 
 .nav a {
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 5px;
   text-decoration: none;
   padding: 0 1.7rem;
-  color: #333;
+  color: #aeb9bf;
 }
 .nav a:hover {
   border-bottom: 4px solid #aeb9bf;
@@ -6512,7 +6508,7 @@ body {
   padding: 4rem 6rem;
 }
 .footer p {
-  color: #7FDBFF;
+  color: #7b7bb3;
 }
 
 .footer a {
@@ -6521,19 +6517,19 @@ body {
 
 .footer .social {
   font-size: 2rem;
-  color: #7FDBFF;
+  color: #7b7bb3;
 }
 .footer .social i {
-  color: #7FDBFF;
+  color: #7b7bb3;
 }
 
 a {
   text-decoration: none;
-  color: #7FDBFF;
+  color: #7b7bb3;
 }
 
 .social a {
-  color: #7FDBFF;
+  color: #7b7bb3;
 }
 
 blockquote {
@@ -6617,11 +6613,11 @@ body {
   }
 }
 .logo {
-  max-width: 25%;
+  max-width: 35%;
 }
 
 .title * {
-  color: #333;
+  color: #aeb9bf;
 }
 
 .nav a {
@@ -6630,7 +6626,7 @@ body {
 }
 
 .nav a:hover {
-  border-bottom: 4px solid #ff00f0;
+  border-bottom: 4px solid #797999;
 }
 
 /* main */
@@ -6650,6 +6646,25 @@ p {
   margin: 0 auto;
 }
 
+/* Pictures/videos */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6667,7 +6682,7 @@ p {
 }
 
 .nav a, .nav-toggle {
-  color: #333;
+  color: #aeb9bf;
 }
 
 .nav-toggle {
@@ -6803,4 +6818,41 @@ p {
 
 .designprinciples {
   grid-column: span 3;
+}
+
+.grid-container-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grid-title-gallery {
+  grid-column: span 4; /* Titeln tar upp fyra kolumner i bredd */
+  text-align: center;
+}
+
+.samecolor {
+  border: 1px solid #000;
+}
+
+.goteborg, .karlstad, .bengtsfors {
+  width: 40%;
+}
+
+.one, .two, .three, .four, .five, .six {
+  grid-column: span 2;
+}
+
+@media screen and (max-width: 767px) {
+  /* Responsivitet för små enheter */
+  .grid-title-gallery {
+    grid-column: span 1; /* Titeln tar upp en kolumn i bredd på små enheter */
+    text-align: center;
+  }
+  .grid-container-gallery {
+    grid-template-columns: 100%;
+  }
+  .one, .two, .three, .four, .five, .six {
+    grid-column: span 1;
+  }
 }
