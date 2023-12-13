@@ -1,0 +1,144 @@
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: $nourivre-5-hex;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.3em;
+    background: $nourivre-5-hex;
+}
+
+pre code {
+    display: block;
+    margin: 0;
+    padding: 1.1111em 0;
+    border: 0 none;
+    background: transparent;
+    overflow-x: auto;
+    line-height: 1.4;
+}
+
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    padding-left: 1.5em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* Placement */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+}
+
+
+
+/* Title */
+
+.title, .logo {
+    padding: 3em 3em 3em 0;
+}
+
+@media (max-width: 767px) {
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+    
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.logo {
+    max-width: 35%;
+}
+
+.title * {
+    color: $font-color;
+}
+
+
+.nav a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    border-bottom: 4px solid $hover-color;
+}
+
+
+/* main */
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+    flex: 1 0 auto;
+}
+
+p {
+    margin-bottom: 1.4rem;
+    font-size: 1.1em;
+}
+
+.mesaga {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* Pictures/videos */
+// img:not([alt]) {
+//     outline: 4px red dashed !important;
+// }
+
+// img, embed, object, video {
+//     max-width: 100%;
+// }
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

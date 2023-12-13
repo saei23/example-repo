@@ -14,7 +14,7 @@ $main-font: 'Roboto', sans-serif;
 $nourivre-1-hex: #aeb9bf;
 $nourivre-2-hex: #001f3f;
 $nourivre-3-hex: #DDD;
-$nourivre-4-hex: #f2e6d8;
+$nourivre-4-hex: #797999;
 $nourivre-5-hex: #7b7bb3;
 
 // Color Theme Swatches in RGBA
@@ -26,7 +26,7 @@ $nourivre-5-rgba: rgba(224, 0, 138, 0.5);
 
 $gradient: linear-gradient(120deg, $nourivre-1-rgba, $nourivre-4-rgba, $nourivre-4-rgba);
 
-$font-color: #aeb9bf;
+$font-color: $nourivre-3-hex;
 $font-alternative-color: #fff;
 
 $header-font: 'Inter', sans-serif;

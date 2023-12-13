@@ -25,62 +25,62 @@ Resultat
 -----------------------
 
 
-<h4>Göteborgs Stad</h4>
+<h3>Göteborgs Stad</h3>
 
 ![Göteborgs Stad](%base_url%/image/goteborgs_stad.png){.goteborg}
 
 Göteborgs Stads webbplats hade högst prestanda både i mobiletop och desktop. 
 
-<h5>förbättring mobil:</h5>
+<h4>förbättring mobil:</h4>
 - skicka bilder i mordernare bildformat 1,35s
 - reducera JavaScript som inte används 1,20s
 - ta bort resurser som blockerar renderingen 0,87s
 - koda bilder effektivt 0,75s
 - reducera CSS som inte används 0,30s
 
-<h5>förbättring dator:</h5>
+<h4>förbättring dator:</h4>
 - ta bort resurser som blockerar renderingen 0,26s
 - använd bilder med rätt storlek 0,25s
 - skicka bilder i mordernare bildformat 0,25s
 - reducera JavaScript som inte används 0,21s          
 
 
-<h4>Karlstads Kommun</h4>
+<h3>Karlstads Kommun</h3>
 
 ![Karlstads Kommun](%base_url%/image/karlstads_kommun.png){.karlstad}
 
-<h5>förbättring mobil:</h5>
+<h4>förbättring mobil:</h4>
 - använd bilder med rätt storlek 2,13s besparing
 - skicka bilder i mordernare bildformat 1,08s besparing
 - ta bort resurser som blockerar renderingen 0,77s besparing
 - reducera CSS som inte används 0,71s besparing
 - reducera JavaScript som inte används 0,18s besparing
 
-<h5>förbättring dator:</h5>
+<h4>förbättring dator:</h4>
 - ta bort resurser som blockerar renderingen 0,25 s besparing
 - använd bilder med rätt storlek 0,20s besparing
 
 
-<h4>Bengtsfors Kommun</h4>
+<h3>Bengtsfors Kommun</h3>
 
 ![Bengtsfors Kommun](%base_url%/image/bengtsfors_kommun.png){.bengtsfors}
 
-<h5>förbättring mobil:</h5>
+<h4>förbättring mobil:</h4>
 - skjut upp inläsningen av bilder som inte visas på skärmen 2,28s besparing
 - skicka bilder i mordernare bildformat 2,11s besparing
 - ta bort resurser som blockerar renderingen 1,38s besparing
 - reducera Javascript som inte används 0,33s
 - reducera CSS som inte används 0,16s
 
-<h5>förbättring dator:</h5>
+<h4>förbättring dator:</h4>
 - skicka bilder i mordernare bildformat 1,32s
 - koda bilder effektivt 0,76s
 - ta bort resurser som blockerar renderingen 0,44s
 
 
-<h4>Google Kalkylark</h4>
+<h3>Google Kalkylark</h3>
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQksyhqHR85tw7DMMcgX24vmA2lHweSszCn2I_QsituVxQPxu_jW9VLrC_8EA-li1FMTIFHQefzSPba/pubhtml?widget=true&amp;headers=false" class="loadtable"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQksyhqHR85tw7DMMcgX24vmA2lHweSszCn2I_QsituVxQPxu_jW9VLrC_8EA-li1FMTIFHQefzSPba/pubhtml?widget=true&amp;headers=false" class="loadtable" title="myFrame"> frame body </iframe>
 
 
 Analys
@@ -91,7 +91,7 @@ I kalkylen kan man se att Karlstads Kommun ligger sämre till jämfört med de a
 
 Tanken med urvalet var att se om det fanns skillnader i webbplatsens utveckling och kvaliteér beroende på hur stor kommunen var. Att Sveriges näst största stad skulle ha mer resurser för fler/bättre webbutvecklare än vad en kommun på ca 10 000 invånare har.
 
-<h5>Rangordning i analysen:</h5>
+<h3>Rangordning i analysen:</h3>
 
 1. Göteborgs Stad
 2. Bengtsfors Kommun
